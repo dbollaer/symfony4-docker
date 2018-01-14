@@ -3,7 +3,7 @@ services:
     aya_front:
       image: nginx
       ports:
-        - "80:80"
+        - "8000:80"
       links:
         - aya_app
       volumes:
